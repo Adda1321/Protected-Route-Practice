@@ -13,7 +13,7 @@ import FeaturedProducts from "./components/FeaturedProducts";
 import NewProducts from "./components/NewProducts";
 function App() {
   return (
-    <AuthProvider>
+    <AuthProvider> 
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
