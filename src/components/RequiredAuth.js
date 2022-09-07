@@ -7,4 +7,4 @@ export const RequireAuth = ( ) => {
   return(
   auth.user ? <Outlet/> :    <Navigate to='/login' state={{ path: location.pathname }} />
   ) 
-}
+}   
