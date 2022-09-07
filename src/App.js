@@ -12,7 +12,7 @@ import { Products } from "./components/Products";
 import FeaturedProducts from "./components/FeaturedProducts";
 import NewProducts from "./components/NewProducts";
 function App() {
-  return (
+  return ( 
     <AuthProvider> 
       <Navbar />
       <Routes>
