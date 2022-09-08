@@ -12,8 +12,8 @@ import { Products } from "./components/Products";
 import FeaturedProducts from "./components/FeaturedProducts";
 import NewProducts from "./components/NewProducts";
 function App() {
-  return (
-    <AuthProvider>
+  return ( 
+    <AuthProvider> 
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
