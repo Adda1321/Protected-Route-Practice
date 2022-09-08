@@ -5,7 +5,9 @@ export const RequireAuth = ( ) => {
   const auth = useAuth()
   return(
     
-  auth.user ? <Outlet/> :    <Navigate to='/login' state={{ path: location.pathname }} />
+  auth.user 
+&& <Navigate to='/login' state={{ path: location.pathname }} />
+  // ? <Outlet/> :
   ) 
   
 } //
